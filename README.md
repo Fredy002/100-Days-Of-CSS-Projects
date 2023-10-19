@@ -16,7 +16,7 @@ Every day I will work on a new project and document it here.
 | Day                                                                  | Description                                                                                | Image Link                                                                                                           |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | [1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) | Visual representation of the number 100, initiating a CSS challenge with a stylish design. | ![day_1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ebd3508f-7c7d-4be2-9ed2-3f879c095c3c) |
-| [2](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_2) | Animated menu, upon pressing, the menu icon morphs into an X and vice versa, utilizing CSS and JavaScript for an interactive experience. | ![day_2]() |
+| [2](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_2) | Animated menu, upon pressing, the menu icon morphs into an X and vice versa, utilizing CSS and JavaScript for an interactive experience. | ![day_2](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/76c2f256-ab97-4feb-972a-55ca2298f941)|
 
 ## Tools and Technologies Used
 
