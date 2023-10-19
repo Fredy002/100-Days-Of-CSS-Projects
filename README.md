@@ -33,7 +33,11 @@ Every day I will work on a new project and document it here.
 
 If you have any suggestions or want to discuss a project, feel free to open an issue or make a pull request!
 
+
 ## Contact
 
 - GitHub: [Fredy002](https://github.com/Fredy002)
 - LinkedIn: [Fredy Antonio Almeyda Alania](https://www.linkedin.com/in/fredy-antonio-almeyda-alania/)
+
+
+Feel free to explore the code to understand how the styling is achieved and maybe tweak some values to see how the design changes. Happy coding!
