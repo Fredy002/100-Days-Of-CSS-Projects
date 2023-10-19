@@ -15,7 +15,8 @@ Every day I will work on a new project and document it here.
 
 | Day                                                                  | Description                                                                                | Image Link                                                               |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| [1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) | Visual representation of the number 100, initiating a CSS challenge with a stylish design. | [image](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) |
+| [1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) | Visual representation of the number 100, initiating a CSS challenge with a stylish design. | [image](![day_1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ebd3508f-7c7d-4be2-9ed2-3f879c095c3c)
+ ) |
 
 ## Tools and Technologies Used
 
