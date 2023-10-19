@@ -13,10 +13,10 @@ This repository is part of my personal challenge to enhance my CSS skills by com
 
 Every day I will work on a new project and document it here.
 
-| Day                                                                  | Description                                                                                | Image Link                                                               |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| [1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) | Visual representation of the number 100, initiating a CSS challenge with a stylish design. | ![day_1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ebd3508f-7c7d-4be2-9ed2-3f879c095c3c)
- ) |
+| Day                                                                  | Description                                                                                | Image Link                                                                                                           |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| [1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_1) | Visual representation of the number 100, initiating a CSS challenge with a stylish design. | ![day_1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ebd3508f-7c7d-4be2-9ed2-3f879c095c3c) |
+|  |
 
 ## Tools and Technologies Used
 
@@ -33,6 +33,7 @@ Every day I will work on a new project and document it here.
 
 If you have any suggestions or want to discuss a project, feel free to open an issue or make a pull request!
 
-## License
+## Contact
 
-[MIT License](LICENSE)
+- GitHub: [Fredy002](https://github.com/Fredy002)
+- LinkedIn: [Fredy Antonio Almeyda Alania](https://www.linkedin.com/in/fredy-antonio-almeyda-alania/)
