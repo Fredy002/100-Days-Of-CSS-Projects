@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body,
+.container,
+.sphereOne,
+.sphereTwo,
+.sphereThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #e56262;
+}
+
+.container {
+    aspect-ratio: 1/1;
+    width: 30vw;
+    position: relative;
+
+}
+
+.sphereOne,
+.sphereTwo,
+.sphereThree {
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 3px 4px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sphereOne {
+    height: 100%;
+    width: 100%;
+
+    animation: scaleOne 4s linear infinite;
+}
+
+@keyframes scaleOne {
+    0% {
+        scale: 0;
+    }
+
+    20%,
+    40%,
+    60%,
+    70% {
+        scale: 1;
+    }
+
+    90%,
+    100% {
+        scale: 0;
+    }
+}
+
+.sphereTwo {
+    height: 50%;
+    width: 50%;
+
+    animation: scaleTwo 4s linear infinite;
+}
+
+@keyframes scaleTwo {
+
+    0%,
+    15% {
+        scale: 0;
+    }
+
+    30%,
+    60% {
+        scale: 1;
+    }
+
+    85%,
+    100% {
+        scale: 0;
+    }
+}
+
+.sphereThree {
+    height: 50%;
+    width: 50%;
+
+    animation: scaleThree 4s linear infinite;
+}
+
+@keyframes scaleThree {
+
+    0%,
+    30% {
+        scale: 0;
+    }
+
+    40%,
+    55% {
+        scale: 1;
+    }
+
+    70%,
+    100% {
+        scale: 0;
+    }
+}
