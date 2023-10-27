@@ -1,20 +1,26 @@
-# Day 1: 100 Days of CSS Projects
+# Day 11: 100 Days of CSS Projects
 
-Welcome to Day 1 of the 100 Days of CSS Challenge. Today, we kickstart this journey with a simple yet engaging CSS project that displays a stylized representation of the number "100" alongside the text "DAYS CSS CHALLENGE". The main goal of this project is to utilize basic CSS properties and create a visually pleasing design.
-
-![day_1](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ebd3508f-7c7d-4be2-9ed2-3f879c095c3c)
+Welcome to Day 11 of the 100 Days of CSS Challenge! Today's project features an animated pair of legs walking. This simple animation showcases the power of keyframes and CSS animations to create a playful and engaging user experience.
 
 ## Project Structure
 
-This project consists of a single HTML file `index.html` and a CSS file `style.css`. The `index.html` file contains the basic structure of the design, while the `style.css` file styles the HTML elements to achieve the desired look.
+This project comprises two main files:
+
+- `index.html` for the HTML structure.
+- `style.css` for styling.
 
 ### HTML Structure
 
-The HTML structure consists of a container div which houses two main divs - one for rendering the number "100" and the other for displaying the text "DAYS CSS CHALLENGE".
+The HTML structure is relatively straightforward. It comprises a main `container` div that encapsulates two `leg` divs, each with a `shoe` div nested within. The `container` div also contains a `ground` div representing the road.
 
 ### CSS Styling
 
-The CSS file defines some root variables for colors, which are used throughout the rest of the styles. Basic reset styles are applied to ensure consistent rendering across different browsers. The design uses Flexbox to align items centrally on the page, and CSS shapes, shadows, and gradients to create a visually appealing representation of the number "100".
+The CSS styling creates the illusion of a pair of legs walking on a road by animating the `leg` and `shoe` divs. Here are some highlights:
+
+- Utilizing `position: absolute` and `position: relative` to precisely position elements.
+- Creating a road pattern with `conic-gradient()` for the ground.
+- Defining `@keyframes` for `legSwing` and `shoeTurn` to create the walking animation.
+- Applying the `animation` property to the `leg` and `shoe` divs to control the animation timing, easing, and iteration.
 
 ## Usage
 
@@ -23,7 +29,13 @@ The CSS file defines some root variables for colors, which are used throughout t
 3. Open the `index.html` file in your web browser to view the project.
 
 ```bash
-git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects.git
+git clone <repository-url>
+cd 100-Days-Of-CSS-Projects/day_11
+open index.html
+
+
+```bash
+git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_11-20/day_11
 cd 100-Days-Of-CSS-Projects
 open index.html
 ```
