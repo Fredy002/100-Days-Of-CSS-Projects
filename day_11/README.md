@@ -2,6 +2,8 @@
 
 Welcome to Day 11 of the 100 Days of CSS Challenge! Today's project features an animated pair of legs walking. This simple animation showcases the power of keyframes and CSS animations to create a playful and engaging user experience.
 
+![day_11](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ea8ff44b-a52e-49b8-a1fd-dcef52c01353)
+
 ## Project Structure
 
 This project comprises two main files:
