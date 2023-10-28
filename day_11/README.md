@@ -42,11 +42,10 @@ cd 100-Days-Of-CSS-Projects
 open index.html
 ```
 ## Learning Outcomes
-- Basic understanding of HTML structure.
-- Utilizing CSS variables for better color management.
-- Usage of Flexbox for layout design.
-- Creating shapes and applying shadows using CSS.
-- Understanding of CSS pseudo-elements.
+- Understanding the use of CSS position property to control the layout.
+- Exploring the power of CSS @keyframes and animation property to create animations.
+- Utilizing conic-gradient() to create a patterned background.
+- Experimenting with transform and transform-origin to control the animation's movement.
 
 ## Contact
 
