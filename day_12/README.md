@@ -2,6 +2,8 @@
 
 On Day 12 of the 100 Days of CSS Challenge, we delve into a quote card showcasing a beautiful design alongside a functionality that provides a definition for a highlighted word. This project demonstrates how CSS and HTML can be used to create interactive and informative designs.
 
+![day_12](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/304ce1e1-bd77-456c-94e9-10985dd60339)
+
 ## Project Structure
 
 The project consists of two primary files:
