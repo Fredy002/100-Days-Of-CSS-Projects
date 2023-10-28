@@ -2,6 +2,8 @@
 
 On Day 13, we explore a stylish profile card design featuring neat animations. The project is set up to showcase a grid of profiles that unveil detailed information upon interaction.
 
+![day_13](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/a6fd5a78-f9c8-4229-9ee8-9a899830679c)
+
 ## Project Structure
 
 The project is structured into three main files:
