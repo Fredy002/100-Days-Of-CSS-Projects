@@ -1,6 +1,6 @@
-# Day 13: 100 Days of CSS Projects
+# Day 14: 100 Days of CSS Projects
 
-On Day 13, we explore a stylish profile card design featuring neat animations. The project is set up to showcase a grid of profiles that unveil detailed information upon interaction.
+On Day 14, we explore a stylish profile card design featuring neat animations. The project is set up to showcase a grid of profiles that unveil detailed information upon interaction.
 
 ![day_14](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/67cbf89f-55c4-4779-9f8e-9b5bca3bb784)
 
