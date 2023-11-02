@@ -2,6 +2,8 @@
 
 Day 16 introduces a user-friendly file upload interface. This project combines HTML and CSS to create an intuitive and visually appealing drag-and-drop file upload component.
 
+![day_16](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ce6c5af9-d4fa-4439-9044-7a4f1fc7758b)
+
 ## Project Structure
 
 The project is composed of two main files:
