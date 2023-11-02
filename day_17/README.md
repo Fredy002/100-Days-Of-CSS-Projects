@@ -2,6 +2,8 @@
 
 Day 17 brings a creative geometric design that includes dynamically created lines using JavaScript and an interactive polygon with CSS hover effects.
 
+![day_17](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/69374e18-827b-4c3a-ac44-fcd4b48aef23)
+
 ## Project Structure
 
 The project is divided into two main files:
