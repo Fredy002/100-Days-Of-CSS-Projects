@@ -2,6 +2,8 @@
 
 Day 18 showcases an elastic ellipse animation that smoothly transitions between two colors, demonstrating a creative use of CSS3 animations and transforms.
 
+![day_18](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/94a7aa20-66a2-43d5-a31e-54a36586b35e)
+
 ## Project Structure
 
 The project consists of two main files:
