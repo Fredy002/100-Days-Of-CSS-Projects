@@ -2,6 +2,8 @@
 
 Day 19 features an interactive image slider that allows users to switch between images using radio buttons, showcasing the use of CSS for creating dynamic user interfaces.
 
+![day_19](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/5046b5ed-bb15-4479-b9c9-3b3aa2a5c326)
+
 ## Project Structure
 
 This project is composed of:
