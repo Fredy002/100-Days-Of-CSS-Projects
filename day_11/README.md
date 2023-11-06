@@ -1,51 +1,47 @@
-# Day 11: 100 Days of CSS Projects
+# Day 21: Animated Pac-Man
 
-Welcome to Day 11 of the 100 Days of CSS Challenge! Today's project features an animated pair of legs walking. This simple animation showcases the power of keyframes and CSS animations to create a playful and engaging user experience.
-
-![day_11](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ea8ff44b-a52e-49b8-a1fd-dcef52c01353)
+Day 21 features an animated Pac-Man, complete with moving mouth, eye, and dots to chomp on, showcasing the power of SVG and CSS animations to recreate classic video game elements.
 
 ## Project Structure
 
-This project comprises two main files:
+The project includes:
 
-- `index.html` for the HTML structure.
-- `style.css` for styling.
+- `index.html` - Contains the HTML structure with SVG elements.
+- `style.css` - Provides the styling and animations for the SVG elements.
 
 ### HTML Structure
 
-The HTML structure is relatively straightforward. It comprises a main `container` div that encapsulates two `leg` divs, each with a `shoe` div nested within. The `container` div also contains a `ground` div representing the road.
+The HTML file consists of:
+
+- A `container` div that holds all the animated elements.
+- SVG elements for the Pac-Man, its eye, and the dots it chomps on.
 
 ### CSS Styling
 
-The CSS styling creates the illusion of a pair of legs walking on a road by animating the `leg` and `shoe` divs. Here are some highlights:
+The CSS file contains:
 
-- Utilizing `position: absolute` and `position: relative` to precisely position elements.
-- Creating a road pattern with `conic-gradient()` for the ground.
-- Defining `@keyframes` for `legSwing` and `shoeTurn` to create the walking animation.
-- Applying the `animation` property to the `leg` and `shoe` divs to control the animation timing, easing, and iteration.
+- Basic reset rules and centering styles for the body.
+- Styling for the `container` and its child SVG elements.
+- Custom animations for the Pac-Man's mouth, eye, and the moving dots.
 
-## Usage
+## How to Use
 
 1. Clone or download the repository to your local machine.
-2. Navigate to the project directory.
-3. Open the `index.html` file in your web browser to view the project.
-
-```bash
-git clone <repository-url>
-cd 100-Days-Of-CSS-Projects/day_11
-open index.html
+2. Navigate to the project folder.
+3. Open the `index.html` file in a web browser to view the animated Pac-Man.
 
 
 ```bash
-git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_11-20/day_11
+git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_21-30/day_21
 cd 100-Days-Of-CSS-Projects
 open index.html
 ```
+
 ## Learning Outcomes
-- Understanding the use of CSS position property to control the layout.
-- Exploring the power of CSS @keyframes and animation property to create animations.
-- Utilizing conic-gradient() to create a patterned background.
-- Experimenting with transform and transform-origin to control the animation's movement.
+
+- Creating and animating SVG elements using CSS.
+- Applying @keyframes to produce complex animations.
+- Utilizing stroke properties and SVG attributes to design shapes and animations.
 
 ## Contact
 
