@@ -2,6 +2,8 @@
 
 Day 20 showcases an animated mail send button that transforms into a plane and "flies away" upon clicking, demonstrating advanced CSS animations and transitions.
 
+![day_20](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/affe21d1-c8e2-49ce-b85d-058103822367)
+
 ## Project Structure
 
 The project consists of:
