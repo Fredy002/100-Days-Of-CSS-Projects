@@ -2,6 +2,8 @@
 
 Day 21 features an animated Pac-Man, complete with moving mouth, eye, and dots to chomp on, showcasing the power of SVG and CSS animations to recreate classic video game elements.
 
+![day_21](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/523cda09-0921-4d39-ac26-16ee1a8247e8)
+
 ## Project Structure
 
 The project includes:
