@@ -30,11 +30,6 @@ The CSS styling creates the illusion of a pair of legs walking on a road by anim
 2. Navigate to the project directory.
 3. Open the `index.html` file in your web browser to view the project.
 
-```bash
-git clone <repository-url>
-cd 100-Days-Of-CSS-Projects/day_11
-open index.html
-
 
 ```bash
 git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_11-20/day_11
