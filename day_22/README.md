@@ -2,6 +2,8 @@
 
 Day 22 showcases a Daily Progress Tracker, a motivational dashboard feature that visualizes daily goals such as calorie intake and steps count using animated progress circles.
 
+![day_22](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/93c1abd5-c1fe-4c82-b14e-3106a0e7154b)
+
 ## Project Structure
 
 The project includes:
