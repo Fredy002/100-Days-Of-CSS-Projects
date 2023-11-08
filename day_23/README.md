@@ -2,6 +2,8 @@
 
 Day 23 presents a compelling animation themed "Collect Moments, Not Things", featuring a combination of geometric shapes and animated text.
 
+![day_23](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/1b82efb7-48c9-412a-8a61-2ba02c939545)
+
 ## Project Structure
 
 This project is composed of:
