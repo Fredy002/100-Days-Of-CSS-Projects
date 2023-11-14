@@ -2,6 +2,8 @@
 
 Day 26 features an interactive card layout where each card reveals a motivational message upon clicking the 'ok' button.
 
+![day_26](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/234d6f99-c7af-43d6-a1bd-b0b3417fc686)
+
 ## Overview
 
 This project showcases:
