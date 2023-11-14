@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    background-color: #2196F3;
+    fill: #1F8DE4;
+    background-size: contain;
+}
+
+.banner {
+    width: 240px;
+    height: 60px;
+}
+
+.location {
+    width: 48px;
+    height: 72px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    fill: #FFCC30;
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+    transition: all 0.5s ease 0.4s;
+    animation: float 1s ease-in-out infinite alternate;
+}
+
+.inactive {
+    transform: perspective(600px) rotateY(90deg);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+@keyframes float {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 5px, 0);
+    }
+}
+
+.shadow {
+    position: absolute;
+    top: 150px;
+    left: 175px;
+    width: 18px;
+    height: 4px;
+    background-color: #1B7AC7;
+    border-radius: 50%;
+    margin: 90px auto 0 auto;
+    animation: shadow 1s ease-in-out infinite alternate;
+}
+
+@keyframes shadow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.card {
+    position: absolute;
+    z-index: 10;
+    width: 240px;
+    height: 190px;
+    top: 105px;
+    left: 80px;
+    border-radius: 4px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transform: perspective(600px) rotateY(90deg);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+.active {
+    transform: perspective(600px) rotateY(0deg);
+    opacity: 1;
+    pointer-events: all;
+    transition: all 0.5s ease 0.4s;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 2px 0;
+}
+
+.actions {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+a {
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #399AE7;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.divide {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 50%;
+    top: 10px;
+    background-color: #399AE7;
+}
