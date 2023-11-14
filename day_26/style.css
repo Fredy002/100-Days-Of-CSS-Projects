@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Open Sans, sans-serif;
+    height:  100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 400px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: #C7D6E1;
+}
+
+.card{
+    position: absolute;
+    z-index: 0;
+    width: 240px;
+    height: 150px;
+    top: 125px;
+    left: 80px;
+    background-color: white;
+    box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0.5);
+    border-radius: 4px;
+}
+
+.card.active{
+    pointer-events: all;
+    z-index: 1;
+    animation: fadeIn 0.6s ease-in-out both 0.5s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.card.inactive{
+    z-index: 2;
+    animation: fadeOut 0.6s ease-in-out;
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+.number-bg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -31px;
+    right: -31px;
+    background-color: #8391A1;
+    transform: rotate(45deg);
+}
+
+.number{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.text{
+    text-align: center;
+    padding: 20px 10px;
+}
+.headline{
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #616E7D;
+}
+
+p{
+    font-weight: 12px;
+    line-height: 17px;
+    color: #8391A1;
+    margin: 0;
+}
+
+.button{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3CA7FB;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 38px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color: #1E90FF;
+}
