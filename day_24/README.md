@@ -2,6 +2,8 @@
 
 Day 24 showcases a creative and visually appealing checkbox animation labeled "finish" that integrates SVG and CSS animations.
 
+![day_24](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/c936421b-6370-48b2-89a7-bfdc21823bb9)
+
 ## Overview
 
 The animation includes:
