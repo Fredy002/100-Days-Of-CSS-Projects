@@ -2,6 +2,8 @@
 
 Day 25 features an interactive card animation linked to a map marker, ideal for business locations or points of interest.
 
+![day_25](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/ef947b96-4c03-4fa1-b465-25e4dd576eda)
+
 ## Overview
 
 This project presents an engaging way to display business information on a map. Clicking the map marker reveals a detailed information card.
