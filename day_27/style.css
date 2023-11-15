@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(253, 163, 49);
+    background: linear-gradient(54deg, rgba(253, 163, 49, 1) 0%, rgba(255, 199, 49, 1) 100%);
+    color: #497081;
+}
+
+.list {
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    top: 60px;
+    left: 80px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.head {
+    padding: 20px 0;
+    margin: 0 30px;
+    border-bottom: 1px solid #d4dce0;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30PX;
+    text-align: center;
+}
+
+.date {
+    font-size: 12px;
+    line-height: 18PX;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 4px 0;
+    margin: 0 30px;
+}
+
+li {
+    position: relative;
+    display: block;
+    margin: 24px 0;
+    height: 14px;
+}
+
+.text {
+    float: left;
+    font-size: 13px;
+    line-height: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button{
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    float: right;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #497081;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0.5s;
+}
+
+.checkmark{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    stroke: #c8d4d9;
+    stroke-width: 2;
+    stroke-dasharray: 30 30;
+    stroke-dashoffset: 30;
+    transition: all 0.5s ease-out;
+    fill: none;
+}
+
+input{
+    display: none;
+}
+
+input:checked ~ .text{
+    color: #c8d4d9;
+}
+
+input:checked ~ .button{
+    transition: all 0.4s ease-in;
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+input:checked ~ .checkmark{
+    stroke-dashoffset: 0;
+    transition: all 0.5s ease-out 0.5s;
+}
