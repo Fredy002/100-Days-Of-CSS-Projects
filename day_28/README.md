@@ -2,6 +2,8 @@
 
 Day 28 showcases a creatively animated bell icon with expanding lines, a project demonstrating the power of CSS animations and SVG elements.
 
+![day_28](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/a2c6bc43-02dd-4172-b317-ba676e431595)
+
 ## Overview
 
 This project illustrates:
