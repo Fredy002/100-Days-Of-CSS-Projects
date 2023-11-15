@@ -2,6 +2,8 @@
 
 Day 27 presents an animated to-do list, where each task is marked with an interactive checkbox that reveals a checkmark upon completion.
 
+![day_27](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/fb7d8a41-80ea-43b9-b347-f03fb32b8cd1)
+
 ## Overview
 
 This project demonstrates:
