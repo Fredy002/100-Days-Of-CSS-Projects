@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    aspect-ratio: 1/1;
+    width: 400px;
+    background-color: #5CA4EA;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 8px 16px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-weight: bold;
+    width: 200px;
+    color: #4D8DCB;
+    padding-right: 40px;
+}
+
+.autocomplete {
+    position: absolute;
+    min-height: 130px;
+    max-height: 160px;
+    width: 255px;
+    top: 50px;
+    background-color: white;
+    display: grid;
+}
+
+.autocomplete a {
+    padding: 10px;
+}
+
+.autocomplete a:hover {
+    color: #5CA4EA;
+    cursor: pointer;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.table label {
+    position: absolute;
+    left: 220px;
+    filter: grayscale(1);
+}
+
+.text-autocomplete {
+    font-weight: bold;
+    color: #6E6E6E;
+}
+
+.autocomplete a {
+    font-weight: 500;
+    color: #6E6E6E;
+}
