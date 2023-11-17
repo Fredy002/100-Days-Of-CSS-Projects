@@ -2,6 +2,8 @@
 
 Day 29 presents an interactive search input with autocomplete functionality, highlighting the integration of JavaScript with HTML and CSS for dynamic web interactions.
 
+![day_29](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/5657feb8-3145-47db-b339-91750e599dcf)
+
 ## Overview
 
 This project demonstrates:
