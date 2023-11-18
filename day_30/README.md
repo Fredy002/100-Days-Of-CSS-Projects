@@ -2,6 +2,8 @@
 
 Day 30 showcases a visually captivating animation combining a circle and a line, demonstrating the power of CSS animations and SVG paths.
 
+![day_30](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/8ce5c69c-7500-457f-8076-200459aa6c43)
+
 ## Overview
 
 This project features:
