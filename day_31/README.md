@@ -2,6 +2,8 @@
 
 Day 31 of the 100 Days of CSS Challenge presents an elegant animation featuring a series of dots moving in a synchronized pattern, showcasing the use of CSS keyframe animations.
 
+ ![day_31](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/6dcbd15e-b1e0-4a72-ab73-b2e598cb295c)
+
 ## Overview
 
 This project demonstrates:
