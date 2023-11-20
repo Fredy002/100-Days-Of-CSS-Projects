@@ -2,6 +2,8 @@
 
 Day 32 of the 100 Days of CSS Challenge features an interactive counter with a stylish design. This project combines HTML, CSS, and JavaScript to create a user-friendly numeric counter.
 
+![day_32](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/f8c26780-e6ef-4b29-8741-9dac7491319b)
+
 ## Overview
 
 - The counter allows users to increment and decrement a numerical value.
