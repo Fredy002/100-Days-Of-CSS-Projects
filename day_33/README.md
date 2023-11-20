@@ -38,7 +38,7 @@ Day 33 of the 100 Days of CSS Challenge brings an animated scene featuring a sun
 You can clone and run the project using:
 
 ```bash
-git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_31-40/day_32
+git clone https://github.com/Fredy002/100-Days-Of-CSS-Projects/tree/day_31-40/day_33
 cd 100-Days-Of-CSS-Projects
 open index.html
 ```
