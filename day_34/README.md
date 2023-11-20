@@ -2,6 +2,8 @@
 
 Day 34 of the 100 Days of CSS Challenge features an animated text presentation with dynamic line elements. This project uses HTML, CSS, and SVG to create a sophisticated animation effect.
 
+![day_34](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/278163a4-5871-49b3-ac86-7ef55c75aafd) 
+
 ## Overview
 
 - The animation displays text with an interesting stroke and fill animation, accompanied by horizontal lines that expand.
