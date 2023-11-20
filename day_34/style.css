@@ -10,62 +10,62 @@ body {
 }
 
 .container {
-    position: absolute;
     height: 400px;
     width: 400px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    background-color: #75c1e8;
-    overflow: hidden;
+    background-color: #ea4c89;
+    display: grid;
+    place-items: center;
 }
 
-.sun {
-    position: absolute;
-    height: 64px;
-    width: 64px;
-    border-radius: 50%;
-    top: 40px;
-    left: 52px;
-    background-color: #ffd93c;
-    animation: sun 60s linear infinite alternate;
+.line{
+    width: 225px;
+    height: 2px;
+    background-color: white;
+    margin: 15px 0;
+    animation: line 0.6s ease-in-out both;
 }
 
-@keyframes sun {
-    0% {
-        transform: translateX(0px);
-    }
-
-    100% {
-        transform: translateX(300px);
-    }
-}
-
-.cloud-big,
-.cloud-medium,
-.cloud-small {
-    position: absolute;
-    top: 118px;
-    left: 280px;
-    animation: cloud 60s linear infinite alternate;
-}
-
-.cloud-small{
-    top: 74px;
-    left: 195px;
-
-}
-
-.cloud-medium{
-    top: 89px;
-    left: 50px;
-}
-
-@keyframes cloud{
+@keyframes line{
     0%{
-        transform: translateX(0px);
+        width: 0;
     }
 
     100%{
-        transform: translateX(-300px);
+        width: 225px;
+    }
+}
+
+.text{
+    stroke: #ea4c89;
+    stroke-dasharray: 270;
+}
+
+.text .a1{
+    fill: white;
+    stroke-width: 6;
+    animation: fill 1.2s ease-in-out both;
+}
+
+.text .a2{
+    fill: white;
+    stroke-width: 12;
+    animation: fill 1.7s ease-in-out 0.3s both;
+}
+
+.text .a3{
+    fill: white;
+    stroke-width: 18;
+    animation: fill 2.2s ease-in-out 0.6s both;
+}
+
+@keyframes fill{
+    0%{
+        stroke-dashoffset: 0;
+    }
+
+    100%{
+        stroke-dashoffset: 270;
     }
 }
