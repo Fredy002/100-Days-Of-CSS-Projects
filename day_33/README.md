@@ -2,6 +2,8 @@
 
 Day 33 of the 100 Days of CSS Challenge brings an animated scene featuring a sun and clouds. This project utilizes HTML, CSS, and SVG elements to create a dynamic and visually appealing animation.
 
+![day_33](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/f9f7b5cd-a1d4-475e-bf6d-76cb5a30d1cd)
+
 ## Overview
 
 - The animation includes a sun and clouds moving across the screen, depicting a simple day scene.
