@@ -2,6 +2,8 @@
 
 On Day 35 of the 100 Days of CSS Challenge, we explore a circular loader animation, showcasing the use of SVG and CSS animations to create a dynamic loading indicator.
 
+![day_35](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/922c9541-c06d-439a-bc75-ceccd5214650)
+
 ## Overview
 
 - This project presents a circular loader animation, commonly used as a loading or progress indicator.
