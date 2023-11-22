@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    background-color: #2b3642;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.center {
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    top: 80px;
+    left: 40px;
+    background-color: white;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.top {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #3d4d5e;
+}
+
+input {
+    display: none;
+}
+
+.tab {
+    position: relative;
+    float: left;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    color: #8398ad;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.tab-search {
+    float: right;
+}
+
+.tab:hover {
+    color: white;
+}
+
+input:checked+.tab {
+    color: white;
+    background-color: #5da2ed;
+}
+
+.content {
+    position: absolute;
+    top: 40px;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 25px;
+    transition: all 0.3s ease-in;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4e6472;
+}
+
+span {
+    display: block;
+    height: 4px;
+    background-color: #e9e9e9;
+    margin: 6px 0;
+}
+
+#tab-1:checked ~ .content #box-1,
+#tab-2:checked ~ .content #box-2,
+#tab-3:checked ~ .content #box-3,
+#tab-4:checked ~ .content #box-4 {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.5s ease-out 0.4s;
+}
