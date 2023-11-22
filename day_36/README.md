@@ -2,6 +2,8 @@
 
 On Day 36 of the 100 Days of CSS Challenge, we explore creating an interactive tabbed interface using HTML, CSS, and Material Icons. This example demonstrates how to use radio buttons for tab selection and CSS for styling and animations.
 
+![day_36](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/444762f1-a8e5-430d-b4a6-713c2a8a1177)
+
 ## Overview
 
 - The project showcases a tabbed interface with a clean and modern design.
