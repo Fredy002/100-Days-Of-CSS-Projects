@@ -2,6 +2,8 @@
 
 Day 37 of the 100 Days of CSS Challenge presents a creative 3D card switching animation using HTML and CSS. This example demonstrates how to create a visually appealing card switch effect, perfect for showcasing features, products, or services.
 
+![day_37](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/3facc1d4-2ae2-4087-997b-c102cc4ebeb0)
+
 ## Overview
 
 - The project features three cards that rotate in a 3D space, creating an engaging switch animation.
