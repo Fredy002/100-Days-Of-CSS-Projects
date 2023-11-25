@@ -2,6 +2,8 @@
 
 In Day 38 of the 100 Days of CSS Challenge, we explore an interactive logo animation featuring a toggle effect. This example demonstrates how a simple checkbox input can be used to create a visually appealing animation for logos or icons on web interfaces.
 
+![day_38](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/b035c14c-d128-44d3-82df-1682393f2029)
+
 ## Overview
 
 - The project uses a checkbox input to toggle between two states of a logo.
