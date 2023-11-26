@@ -2,6 +2,8 @@
 
 Day 39 of the 100 Days of CSS Challenge presents an animated menu icon that transforms into a close button, showcasing the power of CSS animations and JavaScript to enhance user interface interactivity.
 
+![day_39](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/6d454ce9-6579-49d1-aafc-02fce1abd7b7)
+
 ## Overview
 
 - The project features a menu icon that animates into a close (X) button when clicked.
