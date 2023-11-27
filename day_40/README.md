@@ -2,6 +2,8 @@
 
 On Day 40 of the 100 Days of CSS Challenge, we explore an interactive image gallery that uses CSS animations and JavaScript to create engaging user experiences.
 
+![day_40](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/5153f665-ef14-46d7-a65d-dd04a11a3aec)
+
 ## Overview
 
 - This project features a grid of images that expand when clicked, showcasing a simple yet effective technique for interactive galleries.
