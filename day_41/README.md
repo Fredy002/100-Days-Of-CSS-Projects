@@ -2,6 +2,8 @@
 
 On Day 41 of the 100 Days of CSS Challenge, we explore an animated alert box, perfect for displaying notifications or warnings in a web interface.
 
+![day_41](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/672d35c5-2ac2-4612-982b-abeb831dcd61)
+
 ## Overview
 
 - This project demonstrates an animated alert box that provides a user-friendly way to display messages such as errors or warnings.
