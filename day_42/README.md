@@ -2,6 +2,8 @@
 
 Day 42 of the 100 Days of CSS Challenge showcases a delightful starry sky animation, ideal for adding a whimsical touch to web pages.
 
+![day_42](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/8917d6f4-dda6-48cb-987b-386aaca934ab)
+
 ## Overview
 
 - The project features a night sky with twinkling stars and shooting stars, creating a serene and animated backdrop.
