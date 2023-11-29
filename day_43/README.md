@@ -2,6 +2,8 @@
 
 Day 43 of the 100 Days of CSS Challenge introduces an interactive light bulb animation that can enhance user engagement on web pages.
 
+![day_43](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/7c54f7fb-f1f0-41cb-b795-569a86df52fa)
+
 ## Overview
 
 - This project features a light bulb that changes color on hover, simulating a 'turning off' effect.
