@@ -2,6 +2,8 @@
 
 Day 44 of the 100 Days of CSS Challenge features an intriguing animation of rotating rectangles, offering a visually engaging experience.
 
+![day_44](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/09f43d7c-78b1-4a0e-9174-d4a9cc1fcd92)
+
 ## Overview
 
 - This project showcases a series of rectangles that rotate around a central point, creating a mesmerizing effect.
