@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #222222;
+    display: grid;
+    place-items: center;
+}
+
+.rect {
+    position: absolute;
+    border: 1px solid #797979;
+}
+
+.rect-one {
+    z-index: 1;
+    height: 200px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.03333333s alternate infinite;
+}
+
+.rect-two {
+    z-index: 2;
+    height: 190px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.06666667s alternate infinite;
+}
+
+.rect-three {
+    z-index: 3;
+    height: 180px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.1s alternate infinite;
+}
+
+.rect-four {
+    z-index: 4;
+    height: 170px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.13333333s alternate infinite;
+}
+
+.rect-five {
+    z-index: 1;
+    height: 160px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.16666667s alternate infinite;
+}
+
+.rect-six {
+    z-index: 2;
+    height: 150px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.2s alternate infinite;
+}
+
+.rect-seven {
+    z-index: 3;
+    height: 140px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.23333333s alternate infinite;
+}
+
+.rect-eight {
+    z-index: 4;
+    height: 130px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.26666667s alternate infinite;
+}
+
+.rect-nine {
+    z-index: 1;
+    height: 120px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.3s alternate infinite;
+}
+
+.rect-ten {
+    z-index: 2;
+    height: 110px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.33333333s alternate infinite;
+}
+
+.rect-eleven {
+    z-index: 3;
+    height: 100px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.36666667s alternate infinite;
+}
+
+.rect-twelve {
+    z-index: 4;
+    height: 90px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.4s alternate infinite;
+}
+
+.rect-thirteen {
+    z-index: 1;
+    height: 80px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.43333333s alternate infinite;
+}
+
+.rect-fourteen {
+    z-index: 2;
+    height: 70px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.46666667s alternate infinite;
+}
+
+.rect-fifteen {
+    z-index: 3;
+    height: 60px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.5s alternate infinite;
+}
+
+.rect-sixteen {
+    z-index: 4;
+    height: 50px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.53333333s alternate infinite;
+}
+
+.rect-seventeen {
+    z-index: 1;
+    height: 40px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.56666667s alternate infinite;
+}
+
+.rect-eighteen {
+    z-index: 2;
+    height: 30px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.6s alternate infinite;
+}
+
+.rect-nineteen {
+    z-index: 3;
+    height: 20px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.63333333s alternate infinite;
+}
+
+.rect-twenty {
+    z-index: 4;
+    height: 10px;
+    aspect-ratio: 1/1;
+    animation: rotate 2s ease-in-out 0.66666667s alternate infinite;
+}
+
+.container:hover .rect {
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: rotate(360deg) translate3d(0, 0, 0);
+    }
+}
