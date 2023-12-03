@@ -2,6 +2,8 @@
 
 Day 45 of the 100 Days of CSS Challenge introduces an animated hover button, combining simplicity and style for an enhanced user experience.
 
+![day_45](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/58636ff4-9b8c-4b84-9e0d-4b0cfe480814)
+
 ## Overview
 
 - This project features a button with a unique border animation on hover.
