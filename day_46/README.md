@@ -2,6 +2,8 @@
 
 Day 46 of the 100 Days of CSS Challenge features an engaging display of animated dotted rings, creating a mesmerizing visual effect.
 
+![day_46](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/a34af263-63a2-4e17-86fd-bcf877aa7d9b)
+
 ## Overview
 
 - This creation showcases six rings, each composed of twelve dots, animated to rotate and change size, offering a dynamic visual experience.
