@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #27AE60;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+}
+
+.ring {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+}
+
+.ring-one {
+    animation: inOut-one 6s ease-in-out alternate infinite;
+}
+
+.ring-one .dot {
+    opacity: 1;
+}
+
+.ring-two {
+    animation: inOut-two 6s ease-in-out alternate infinite;
+}
+
+.ring-two .dot {
+    opacity: 0.9;
+}
+
+.ring-three {
+    animation: inOut-three 6s ease-in-out alternate infinite;
+}
+
+.ring-three .dot {
+    opacity: 0.8;
+}
+
+.ring-four {
+    animation: inOut-four 6s ease-in-out alternate infinite;
+}
+
+.ring-four .dot {
+    opacity: 0.7;
+}
+
+.ring-five {
+    animation: inOut-five 6s ease-in-out alternate infinite;
+}
+
+.ring-five .dot {
+    opacity: 0.6;
+}
+
+.ring-six {
+    animation: inOut-six 6s ease-in-out alternate infinite;
+}
+
+.ring-six .dot {
+    opacity: 0.5;
+}
+
+.dot-one {
+    transform: translate3d(0, -100px, 0) rotate(0deg);
+    transform-origin: 0 100px;
+}
+
+.dot-two {
+    transform: translate3d(0, -100px, 0) rotate(30deg);
+    transform-origin: 0 100px;
+}
+
+.dot-three {
+    transform: translate3d(0, -100px, 0) rotate(60deg);
+    transform-origin: 0 100px;
+}
+
+.dot-four {
+    transform: translate3d(0, -100px, 0) rotate(90deg);
+    transform-origin: 0 100px;
+}
+
+.dot-five {
+    transform: translate3d(0, -100px, 0) rotate(120deg);
+    transform-origin: 0 100px;
+}
+
+.dot-six {
+    transform: translate3d(0, -100px, 0) rotate(150deg);
+    transform-origin: 0 100px;
+}
+
+.dot-seven {
+    transform: translate3d(0, -100px, 0) rotate(180deg);
+    transform-origin: 0 100px;
+}
+
+.dot-eight {
+    transform: translate3d(0, -100px, 0) rotate(210deg);
+    transform-origin: 0 100px;
+}
+
+.dot-nine {
+    transform: translate3d(0, -100px, 0) rotate(240deg);
+    transform-origin: 0 100px;
+}
+
+.dot-ten {
+    transform: translate3d(0, -100px, 0) rotate(270deg);
+    transform-origin: 0 100px;
+}
+
+.dot-eleven {
+    transform: translate3d(0, -100px, 0) rotate(300deg);
+    transform-origin: 0 100px;
+}
+
+.dot-twelve {
+    transform: translate3d(0, -100px, 0) rotate(330deg);
+    transform-origin: 0 100px;
+}
+
+@keyframes inOut-one {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@keyframes inOut-two {
+    0% {
+        transform: scale(0.85714) rotate(5deg);
+    }
+
+    100% {
+        transform: scale(0.954545) rotate(370deg);
+    }
+}
+
+@keyframes inOut-three {
+    0% {
+        transform: scale(0.71429) rotate(10deg);
+    }
+
+    100% {
+        transform: scale(0.90909) rotate(380deg);
+    }
+}
+
+@keyframes inOut-four {
+    0% {
+        transform: scale(0.57143) rotate(15deg);
+    }
+
+    100% {
+        transform: scale(0.86364) rotate(390deg);
+    }
+}
+
+@keyframes inOut-five {
+    0% {
+        transform: scale(0.42857) rotate(20deg);
+    }
+
+    100% {
+        transform: scale(0.81818) rotate(400deg);
+    }
+}
+
+@keyframes inOut-six {
+    0% {
+        transform: scale(0.28571) rotate(25deg);
+    }
+
+    100% {
+        transform: scale(0.77273) rotate(410deg);
+    }
+}
