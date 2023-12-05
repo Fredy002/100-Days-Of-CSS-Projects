@@ -2,6 +2,8 @@
 
 Day 47 of the 100 Days of CSS Challenge introduces a captivating interactive pixel grid.
 
+![day_47](https://github.com/Fredy002/100-Days-Of-CSS-Projects/assets/104151778/78587873-5f63-446d-8faa-c072fbd9e811)
+
 ## Overview
 
 - This creation features a 20x20 grid, each cell being an interactive pixel.
